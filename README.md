@@ -39,6 +39,8 @@ If you are using Ben Eater's standard setup (16k RAM at $0-$3FFF, ACIA at $5000,
 you can just download the [smon.bin](https://github.com/dhansel/smon6502/raw/main/smon.bin) file from
 this repository and burn it to the EEROM.
 
+My 6502 is mapped as follows: 32k RAM at $0-$7FFF, ACIA at $A000, VIA at $8000, ROM at $C000-$FFFF, 1.8432 MHz clock
+
 Connect your terminal to the 6850 ACIA.
 
 Configure your terminal (program) for 115200 baud, 8 data bits, 1 stop bit and no parity. After turning
@@ -53,6 +55,7 @@ At startup, SMON shows the current 6502 processor status, followed by a "." comm
 ```
   PC  SR AC XR YR SP  NV-BDIZC
 ;E00B B4 E7 00 FF FF  10110100
+
 .                             
 ```
 Where "PC" is the program counter, "SR" is the status register, "AC" is the accumulator, "XR" and "YR" are
