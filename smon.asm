@@ -20,10 +20,10 @@
 ;;;   - MOS 6502 CPU
 ;;;   - MOS 6522 VIA (necessary only if "trace" functions are used)
 ;;;     The VIA interrupt output must be attached to the 6502 IRQ input
-;;;   - 8K of ROM at address E000-F000 (for SMON)
-;;;   - 4K of RAM at address 0000-1000
+;;;   - 16K of ROM at address C000-F000 (for SMON)
+;;;   - 32K of RAM at address 0000-7fff
 ;;;   - UART for communication. As presented here, a MC6850 UART
-;;;     at address $8200 is expected. However, this can easily
+;;;     at address $C000 is expected. However, this can easily
 ;;;     be adapted by modifying the code in file "uart.asm"
 ;;;
 ;;; This code is based on the SMON disassembly found at:
@@ -47,7 +47,7 @@ CHROUT          = $FFD2         ; Kernal output routine
 STOP            = $FFE1         ; Kernal test STOP routine
 GETIN           = $FFE4         ; Kernal get input routine
 
-        .org    $a000
+        .org    $fffa
         .org    $c000
 
 ENTRY:  lda     #<SMON                        ; set break-vector to program start
