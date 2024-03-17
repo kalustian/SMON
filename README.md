@@ -39,7 +39,7 @@ If you are using Ben Eater's standard setup (16k RAM at $0-$3FFF, ACIA at $5000,
 you can just download the [smon.bin](https://github.com/dhansel/smon6502/raw/main/smon.bin) file from
 this repository and burn it to the EEROM.
 
-My 6502 is mapped as follows: 32k RAM at $0-$7FFF, ACIA at $A000, VIA at $8000, ROM at $C000-$FFFF, 1.8432 MHz clock
+My 6502 SBC is mapped as follows: 32k RAM at $0-$7FFF, ACIA at $A000, VIA at $8000, ROM at $C000-$FFFF, 1.8432 MHz clock
 
 Connect your terminal to the 6850 ACIA.
 
