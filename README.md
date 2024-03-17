@@ -39,9 +39,9 @@ If you are using Ben Eater's standard setup (16k RAM at $0-$3FFF, ACIA at $5000,
 you can just download the [smon.bin](https://github.com/dhansel/smon6502/raw/main/smon.bin) file from
 this repository and burn it to the EEROM.
 
-Connect your terminal or USB-to-serial converter to the 65C51N ACIA as described by Ben in his videos.
+Connect your terminal to the 6850 ACIA.
 
-Configure your terminal (program) for 9600 baud, 8 data bits, 1 stop bit and no parity. After turning
+Configure your terminal (program) for 115200 baud, 8 data bits, 1 stop bit and no parity. After turning
 on the 6502 you should see SMON showing the 6502 register contents and command prompt.
 
 If you are using a non-standard setup, SMON can easily be adapted by changing the settings
