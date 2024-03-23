@@ -203,7 +203,7 @@ To produce a binary file that can be programmed into an EEPROM for the 6502 comp
 do the following:
   1. Download the `*.asm` files from this repository (there are only 7)
   2. Download the VASM compiler for Mac & Win ([vasm6502_oldstyle_MAC_Win.zip]( http://www.ibaug.de/vasm/vasm6502.zip)). Credits to Ben Eater for providing the Mac and Windows versions.
-  3. Extract `vasm6502_oldstyle.exe` from the archive and put it into the same directory as the .asm files
+  3. Extract `vasm6502_oldstyle` from the archive and put it into the same directory as the .asm files
   4. Issue the following command:
      - For WIN: `vasm6502_oldstyle.exe -dotdir -Fbin -wdc02 -o smon.bin smon.asm`
      - For MAC: `./vasm6502_oldstyle -dotdir -Fbin -wdc02 -o smon.bin smon.asm`
