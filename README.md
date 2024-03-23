@@ -207,7 +207,7 @@ do the following:
   4. Extract `vasm6502_oldstyle.exe` from the archive and put it into the same directory as the .asm files
   5. Issue the following command:
      - For WIN: `vasm6502_oldstyle.exe -dotdir -Fbin -o smon.bin smon.asm`
-     - For MAC: './vasm6502_oldstyle.exe -dotdir -Fbin -o smon.bin smon.asm'
+     - For MAC: `./vasm6502_oldstyle.exe -dotdir -Fbin -o smon.bin smon.asm`
 
 Then just burn the generated smon.bin file to the EEPROM using whichever programmer
 you have been using.
