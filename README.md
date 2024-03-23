@@ -206,8 +206,8 @@ do the following:
   3. Download the VASM compiler for Mac ([vasm6502_oldstyle_MAC.zip]( http://www.ibaug.de/vasm/vasm6502.zip)). Credits to Ben Eater for providing the Mac and Windows versions.
   4. Extract `vasm6502_oldstyle.exe` from the archive and put it into the same directory as the .asm files
   5. Issue the following command:
-     For WIN: `vasm6502_oldstyle.exe -dotdir -Fbin -o smon.bin smon.asm`
-     For MAC: './vasm6502_oldstyle.exe -dotdir -Fbin -o smon.bin smon.asm'
+     -For WIN: `vasm6502_oldstyle.exe -dotdir -Fbin -o smon.bin smon.asm`
+     -For MAC: './vasm6502_oldstyle.exe -dotdir -Fbin -o smon.bin smon.asm'
 
 Then just burn the generated smon.bin file to the EEPROM using whichever programmer
 you have been using.
