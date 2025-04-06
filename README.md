@@ -40,7 +40,7 @@ The following new commands have been added in this version
 ## Installing and running SMON 6502
 
 If youe single board computer memory map is a follow (32k RAM at $0-$7FFF, ACIA at $A000, VIA at $8000, ROM at $C000-$FFFF, 1.8432MHz clock)
-you can just download the [smon.bin](https://github.com/dhansel/smon6502/raw/main/smon.bin) file from
+you can just download the [smon.bin](https://github.com/kalustian/SMON/blob/main/smon.bin) file from
 this repository and burn it to the EEROM.
 
 Connect your terminal or USB-to-serial converter to the 65C51N ACIA as described by Ben in his videos.
