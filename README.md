@@ -247,4 +247,4 @@ The [code](https://github.com/dhansel/smon6502/blob/main/uart_6551.asm) for hand
 65C51N ACIA chip was put together and tested by Chris McBrien, based on the ACIA code from 
 [Adrien Kohlbecker](https://github.com/adrienkohlbecker/65C816/blob/ep.30/software/lib/acia.a).
 
-Credits to [David Hansel](https://github.com/dhansel/smon6502) who helped me to clarify some of the smon routines.
+Credits to [David Hansel](https://github.com/dhansel/smon6502) who helped me to clarify some of the smon routines functionalities.
