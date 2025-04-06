@@ -32,8 +32,6 @@ I have modified the original configuration code found here [David Hansel](https:
 
 If you want your keyboard input to be uppercase, set the INPUT_UCASE = 1 found in **smon.asm** file
 
-
-
 The version published here is an adaptation of SMON for a simple MOS6502-based 
 computer, such as the one built by [Ben Eater](https://eater.net/6502) in his 
 [YouTube video series](https://www.youtube.com/watch?v=LnzuMJLZRdU&list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH).
