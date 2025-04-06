@@ -22,7 +22,7 @@ For English speakers, C64Wiki has a brief [overview of SMON commands](https://ww
 
 ## SMON for 6502
 
-I have modified configuration the original code found here [David Hansel](https://github.com/dhansel/smon6502) to fit my 6502 SBC memory map:
+I have modified the original configuration code found here [David Hansel](https://github.com/dhansel/smon6502) to fit my 6502 SBC memory map and keyboard input to be uppercase.
 
   - RAM   = $0-$7FFF  
   - VIA   = $8000 (6522)
@@ -48,17 +48,14 @@ The following new commands have been added in this version
 
 ## Installing and running SMON 6502
 
-If youe single board computer memory map is a follow (32k RAM at $0-$7FFF, ACIA at $A000, VIA at $8000, ROM at $C000-$FFFF, 1.8432MHz clock)
+If your single board computer memory map is a follow (32k RAM at $0-$7FFF, ACIA at $A000, VIA at $8000, ROM at $C000-$FFFF, 1.8432MHz clock)
 you can just download the [smon.bin](https://github.com/kalustian/SMON/blob/main/smon.bin) file from
-this repository and burn it to the EEROM.
+this repository and burn it to the EPROM.
 
-Connect your terminal or USB-to-serial converter to the 65C51N ACIA as described by Ben in his videos.
+Connect your terminal or USB-to-serial converter to the 6850N ACIA.
 
-Configure your terminal (program) for 9600 baud, 8 data bits, 1 stop bit and no parity. After turning
+Configure your terminal (program) for 28800 baud, 8 data bits, 1 stop bit and no parity. After turning
 on the 6502 you should see SMON showing the 6502 register contents and command prompt.
-
-If you are using a non-standard setup, SMON can easily be adapted by changing the settings
-in the `config.asm` file (see below).
 
 ## Basic usage
 
@@ -249,3 +246,5 @@ and (heavily) adapted from the VIC-20 kernal, using Lee Davidson's
 The [code](https://github.com/dhansel/smon6502/blob/main/uart_6551.asm) for handling RS232 communication via the 
 65C51N ACIA chip was put together and tested by Chris McBrien, based on the ACIA code from 
 [Adrien Kohlbecker](https://github.com/adrienkohlbecker/65C816/blob/ep.30/software/lib/acia.a).
+
+Credits to [David Hansel](https://github.com/dhansel/smon6502) who helped me to clarify some of the smon routines.
