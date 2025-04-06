@@ -32,9 +32,6 @@ I have modified the original configuration code found here [David Hansel](https:
 
 If you want your keyboard input to be lowercase, set the INPUT_UCASE = 0 found in **smon.asm** file. I have set it as 1.
 
-The version published here is an adaptation of SMON for a simple MOS6502-based 
-computer, such as the one built by [Ben Eater](https://eater.net/6502) in his 
-[YouTube video series](https://www.youtube.com/watch?v=LnzuMJLZRdU&list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH).
 The following original SMON functions are **not** available in this version:
   - Loading and saving programs/data to disk or tape (L/S/I commands)
   - Sending output to a printer (P command)
@@ -49,11 +46,11 @@ The following new commands have been added in this version
 
 ## Installing and running SMON 6502
 
-If your single board computer memory map is a follow (32k RAM at $0-$7FFF, ACIA at $A000, VIA at $8000, ROM at $C000-$FFFF, 1.8432MHz clock)
+If your single board computer memory map is a follow (32k RAM at $0000-$7FFF, ACIA at $A000, VIA at $8000, ROM at $C000-$FFFF, 1.8432MHz clock)
 you can just download the [smon.bin](https://github.com/kalustian/SMON/blob/main/smon.bin) file from
 this repository and burn it to the EPROM.
 
-Connect your terminal or USB-to-serial converter to the 6850N ACIA.
+Connect your terminal or USB-to-serial converter to the 6850 ACIA.
 
 Configure your terminal (program) for 28800 baud, 8 data bits, 1 stop bit and no parity. After turning
 on the 6502 you should see SMON showing the 6502 register contents and command prompt.
