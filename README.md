@@ -24,13 +24,13 @@ For English speakers, C64Wiki has a brief [overview of SMON commands](https://ww
 
 I have modified configuration the original code found here [David Hansel](https://github.com/dhansel/smon6502) to fit my 6502 SBC memory map:
 
-**********   MEMORY MAP   ******
-*** RAM   = $0-$7FFF      ******    
-*** VIA   = $8000 (6522)  ******
-*** ACIA  = $A000 (6850)  ******
-*** ROM   = $C000-$FFFF   ******
-*** CLOCK = 1.8432 MHZ    ******
-********************************
+-**********   MEMORY MAP   ******
+-*** RAM   = $0-$7FFF      ******    
+-*** VIA   = $8000 (6522)  ******
+-*** ACIA  = $A000 (6850)  ******
+-*** ROM   = $C000-$FFFF   ******
+-*** CLOCK = 1.8432 MHZ    ******
+-********************************
 
 
 The version published here is an adaptation of SMON for a simple MOS6502-based 
