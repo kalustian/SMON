@@ -30,7 +30,7 @@ I have modified the original configuration code found here [David Hansel](https:
   - ROM   = $C000-$FFFF (27128)
   - CLOCK = 1.8432 MHZ
 
-If you want your keyboard input to be uppercase, set the INPUT_UCASE = 1 found in **smon.asm** file
+If you want your keyboard input to be lowercase, set the INPUT_UCASE = 0 found in **smon.asm** file. I have set it as 1.
 
 The version published here is an adaptation of SMON for a simple MOS6502-based 
 computer, such as the one built by [Ben Eater](https://eater.net/6502) in his 
