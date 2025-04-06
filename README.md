@@ -182,7 +182,7 @@ the corresponding address is printed. The optional "nn" parameter specifies a re
 
 There are three basic settings that can be changed by modifying the `config.asm` file:
   - RAM size (default: 16k). RAM is assumed to occupy the address space from $0 to the RAMTOP setting.
-    For example, if you have 32K of RAM then set RAMTOP to $7FFF
+    In my case I have 32K of RAM then set RAMTOP to $7FFF.
   - VIA location (default: $6000). Change this if the location of the VIA differs from the default setting.
   - Clock speed (default: 1000000). Change this if your system's clock is running at a different rate
     than the standart 1MHz. This setting is used for UART timing.
