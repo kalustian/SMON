@@ -1,5 +1,8 @@
 # SMON
 
+# NOTE: 
+SMON uses the memory in $0400-$0B80 as an input buffer ($0400+24 lines*80 characters). So anything uploaded into that area may be overwritten by input.
+
 SMON is a machine language monitor and direct assembler for the Commodore 64,
 published in 1984 in "64'er" magazine (for more info see the [credit section](https://github.com/dhansel/smon6502#credits) below).
 
