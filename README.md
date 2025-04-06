@@ -211,7 +211,7 @@ do the following:
   3. Extract `vasm6502_oldstyle.exe` from the archive and put it into the same directory as the .asm files
   4. Issue the following command: `vasm6502_oldstyle.exe -dotdir -Fbin -o smon.bin smon.asm`
 
-Then just burn the generated smon.bin file to the EEPROM using whichever programmer
+Then just burn the generated smon.bin file to the EPROM using whichever programmer
 you have been using.
 
 ## Running Commodore BASIC
