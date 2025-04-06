@@ -1907,7 +1907,7 @@ LCDF2:  lda     IRQ_LO
 LINEBUF         = $0400         ; line ("screen") buffer memory start
 NUMCOLS         = 80            ; number of columns per row
 NUMROWS         = 24            ; number of rows
-INPUT_UCASE     = 1             ; do not automatically convert input to uppercase
+INPUT_UCASE     = 1             ; Uppercase = 1, Lowercase =0
 SUPPRESS_NP     = 0             ; do not suppress any characters on output
 
         ;; print 16-bit integer in $62/$63 as decimal value, adapted from:
